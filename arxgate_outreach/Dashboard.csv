@@ -1,0 +1,27 @@
+Metric,Formula / Definition
+Total Records,=COUNTA(Master_Resources!A:A)-1
+Tier 1 Targets,=COUNTIF(Master_Resources!O:O,"Tier 1")
+Tier 2 Targets,=COUNTIF(Master_Resources!O:O,"Tier 2")
+Tier 3 Targets,=COUNTIF(Master_Resources!O:O,"Tier 3")
+Contacted,=COUNTIF(Master_Resources!P:P,"Contacted")
+Replied,=COUNTIF(Master_Resources!W:W,"Replied")
+Meetings Scheduled,=COUNTIF(Master_Resources!X:X,"Scheduled")
+Qualified Opportunities,=COUNTIF(Master_Resources!Y:Y,"Qualified")
+Active Opportunities,=COUNTIF(Master_Resources!Y:Y,"Active")
+Won Opportunities,=COUNTIF(Master_Resources!Y:Y,"Won")
+Lost Opportunities,=COUNTIF(Master_Resources!Y:Y,"Lost")
+Overdue Follow-Ups,=COUNTIFS(Master_Resources!U:U,"<"&TODAY(),Master_Resources!Y:Y,"<>Won",Master_Resources!Y:Y,"<>Lost")
+North America,=COUNTIF(Master_Resources!I:I,"North America")
+Europe,=COUNTIF(Master_Resources!I:I,"Europe")
+Middle East,=COUNTIF(Master_Resources!I:I,"Middle East")
+Africa,=COUNTIF(Master_Resources!I:I,"Africa")
+APAC,=COUNTIF(Master_Resources!I:I,"APAC")
+LATAM,=COUNTIF(Master_Resources!I:I,"LATAM")
+Customers,=COUNTIF(Master_Resources!F:F,"Customer")
+Partners,=COUNTIF(Master_Resources!F:F,"Partner")
+Resellers,=COUNTIF(Master_Resources!F:F,"Reseller")
+Alliances,=COUNTIF(Master_Resources!F:F,"Alliance")
+OEM,=COUNTIF(Master_Resources!F:F,"OEM")
+Integrators,=COUNTIF(Master_Resources!F:F,"Integrator")
+
+Instructions,Create an Excel workbook named arxgate_global_resource.xlsx and import Master_Resources.csv and Picklists.csv as tabs. Create a Dashboard tab and paste these formulas into column B next to each metric. Convert Master_Resources into an Excel Table for filtering and easier reporting.
