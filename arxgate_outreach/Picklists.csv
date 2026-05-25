@@ -1,0 +1,87 @@
+Category,Value
+Segment,Customer
+Segment,Partner
+Segment,Reseller
+Segment,Strategic Alliance
+Segment,Technology Alliance
+Segment,System Integrator
+Segment,MSSP/MSP
+Segment,Distributor
+Sub-Segment,Bank
+Sub-Segment,Credit Union
+Sub-Segment,Wealth Management
+Sub-Segment,Mortgage Lender
+Sub-Segment,Insurance Carrier
+Sub-Segment,Healthcare System
+Sub-Segment,Health IT
+Sub-Segment,Government Agency
+Sub-Segment,Higher Education
+Sub-Segment,Legal Services
+Sub-Segment,Critical Infrastructure
+Sub-Segment,SaaS Platform
+Sub-Segment,IAM Vendor
+Sub-Segment,KYC/AML Vendor
+Sub-Segment,Fraud Platform
+Sub-Segment,Consulting Firm
+Sub-Segment,VAR
+Sub-Segment,Marketplace
+Partnership Model,Direct Customer
+Partnership Model,Reseller
+Partnership Model,Referral Partner
+Partnership Model,Implementation Partner
+Partnership Model,System Integrator
+Partnership Model,MSSP/MSP
+Partnership Model,Technology Alliance
+Partnership Model,Embedded / OEM
+Partnership Model,Marketplace / Ecosystem
+Partnership Model,Distributor
+Type,Customer
+Type,Partner
+Type,Reseller
+Type,Alliance
+Type,OEM
+Type,Integrator
+Region,North America
+Region,Europe
+Region,Middle East
+Region,Africa
+Region,APAC
+Region,LATAM
+Priority Tier,Tier 1
+Priority Tier,Tier 2
+Priority Tier,Tier 3
+Status,Not Researched
+Status,Researched
+Status,Outreach Ready
+Status,Contacted
+Status,Replied
+Status,Meeting Scheduled
+Status,Qualified
+Status,Nurture
+Status,Closed Won
+Status,Closed Lost
+Outreach Stage,Not Started
+Outreach Stage,Researching
+Outreach Stage,Initial Outreach
+Outreach Stage,Follow-Up 1
+Outreach Stage,Follow-Up 2
+Outreach Stage,Discovery
+Outreach Stage,Proposal
+Outreach Stage,Negotiation
+Outreach Stage,Closed
+Reply Status,No Reply
+Reply Status,Replied
+Reply Status,Deferred
+Reply Status,Not Interested
+Reply Status,Bounce
+Meeting Status,None
+Meeting Status,Requested
+Meeting Status,Scheduled
+Meeting Status,Completed
+Meeting Status,No Show
+Opportunity Status,None
+Opportunity Status,Identified
+Opportunity Status,Qualified
+Opportunity Status,Active
+Opportunity Status,Won
+Opportunity Status,Lost
